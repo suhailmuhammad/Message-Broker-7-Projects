@@ -1,8 +1,0 @@
-apply plugin: 'java'
-
-task zip(type: Zip) {
-    from '/'
-    into('libs') {
-        from configurations.runtime
-    }
-}
